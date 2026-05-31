@@ -1,11 +1,12 @@
 *{
-    margin: 8px;
+    margin: 5px;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
 body{
     background-color:aliceblue;
+    border: 2px solid aliceblue;
 }
 .logo{
     background-color: yellow;
@@ -16,6 +17,7 @@ body{
     padding: 10px 15px;
     border-radius: 10px;
     font-family: sans-serif;
+    margin-left: 10px;
     
 }
 .travel{
@@ -24,6 +26,7 @@ body{
     font-size: 16px;
     font-weight: 600;
     font-style: italic;
+    margin-left: 10px;
     padding: 10px 15px;
     border-radius: 10px;
     font-family: sans-serif;
@@ -31,34 +34,41 @@ body{
 
 .location{
     display: inline-block;
-    margin-left: 70%;
+    margin-left: 50%
 }
-
+span{
+    color: black;
+}
 .middle input{
-    width: 80%;
+    width: 75%;
     outline: none;
+    margin: 20px;
     padding: 10px;
     border-radius: 8px;
     border: 2px solid blue;
 }
 .bottom .box{
     display: inline-block;
-    width: 60px;
-    height: 30px;
-    background-color: slateblue;
+    width: 80px;
+    height: 60px;
+    background-color: aliceblue;
+    font-size: large;
+    text-align: center;
+
 
 }
 
 #hero img{
-    width: 365px;
+    width: 375px;
     height: 190px;
+    margin-left: 8px;
     border-radius: 8px;
 }
 #hero div{
     display: inline-block;
 }
 #rec{
-    background-color: yellowgreen;
+    background-color: #e2e2e2;
     width: 100%;
     height: 400px;
 }
@@ -66,9 +76,21 @@ body{
     display: inline-block;
     border-radius: 8px;
 }
+img{
+    width: 274px;
+    height: 300px;
+}
+.img{
+    background-color: white;
+    width: 283px;
+    height: 350px;
+    margin-top: 20px;
+}
+ 
 .footer{
     background-color: black;
     color: white;
+    margin: 0px;
 
 }
 .description,.about,.help{
