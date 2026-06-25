@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        .navbar{
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+        }
+        .main{
+            display: flex;
+            justify-content: space-between;
+        }
+        img{
+            border-radius: 50%;
+            padding: 6px;
+            width: 50px;
+            height: 50px;
+        }
+        .contain{
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            padding: 6px;
+        }
+        @media (max-width: 768px){
+            .main{
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .contain{
+                margin-left: 0;
+                margin-top: 10px;
+                flex-direction: column;
+                align-items: center;
+                gap: 10px;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="main">
+            <div class="logo"><img src="https://static.vecteezy.com/system/resources/thumbnails/002/318/271/small/user-profile-icon-free-vector.jpg"></div>
+            <div class="contain">
+
+                <p>About</p>
+                <p>Contact</p>
+                <p>Experience</p>
+                <p>Setting</p>
+            </div>
+        </div>
+        
+    </nav>
+</body>
+</html>
