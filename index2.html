@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            top: 0;
+            position: fixed;
+            width: 100%;
+        }
+        .navbar{
+            background-color: rgb(45, 44, 44);
+            display: flex;
+            justify-content: space-evenly;
+            height: 40px;
+            align-items: center;
+            list-style-type: none;
+            
+        }
+        .navbar a{
+            color: #f2f2f2;
+            font-size: 24px;
+            text-decoration: none;
+        }
+        body{
+            width: 100vw;
+            height: 100vh;
+            color: black;
+        }
+        .main{
+            background-color: lightblue;
+            height: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .chat{
+            border-radius: 50%;
+            position: absolute;
+            right: 15px;
+            bottom: 5px;
+            font-size: 35px;
+        }
+        .new{
+            background-color: lightcyan;
+            height: 600px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="">Home</a></li>
+            <li><a href="">Blog</a></li>
+            <li><a href="">Product</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">Content</a></li>
+            <li><a href="">Search</a></li>
+        </ul>
+    </nav>
+    <section class="main-section">
+         <div class="main">
+            <h1>Welcome to Website</h1>
+            <span>These are the descriptions</span>
+        </div>
+        <div class="chat">
+            <i class="fa-regular fa-comment-dots"></i>
+        </div>
+    </section>
+    <section class="new-section">
+        <div class="new">
+
+        </div>
+    </section>
+</body>
+</html>
